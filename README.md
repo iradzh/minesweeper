@@ -10,3 +10,5 @@ Features:
 - 3 levels: easy, medium, hard
 - adjustable amount of mines
 - dark mode
+
+[Deploy]([https://iradzh-rssselectors.netlify.app](https://iradzh.github.io/minesweeper/minesweeper)https://iradzh.github.io/minesweeper/minesweeper)
