@@ -1,0 +1,110 @@
+body {
+  background-color: #000000;
+}
+
+h1,
+label,
+#selectedValue {
+  color: #ffffff;
+}
+
+.board__container,
+.board__head,
+.counters-container,
+.board__button:active {
+  background-color: #555555;
+  border-top-color: #808080;
+  border-right-color: #ffffff;
+  border-bottom-color: #e6e5e5;
+  border-left-color: #b1b0b0;
+}
+
+.board__button:active {
+  background-color: rgb(130, 149, 158);
+}
+
+.board__head div,
+.counters-container p,
+#flag-button,
+.volume-button,
+.end_message {
+  background-color: #c6c6c6;
+  border-top-color: #ffffff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  border-left-color: #ffffff;
+}
+
+.end_message {
+  background-color: #000000;
+}
+
+.end_message__content,
+.end_message__close {
+  color: rgb(255, 0, 0);
+}
+
+input[type="range"] {
+  background-color: rgb(255, 255, 255);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: rgb(255, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.x1 {
+  color: #007bff;
+}
+
+.x2 {
+  color: #28a745;
+}
+
+.x3 {
+  color: #dc3545;
+}
+
+.x4 {
+  color: #6c757d;
+}
+
+.x5 {
+  color: #e83e8c;
+}
+
+.x6 {
+  color: #20c997;
+}
+
+.x7 {
+  color: #343a40;
+}
+
+.x8 {
+  color: #6c757d;
+}
+
+.dark_mode_checkbox + .dark_mode_label:before,
+.level_container input[type="radio"] + .level_label:before {
+  border: 2px solid #ffffff;
+  background-color: #000000;
+}
+
+.dark_mode_checkbox:checked + .dark_mode_label:before,
+.level_container input[type="radio"]:checked + .level_label:before {
+  border: 2px solid #ffffff;
+  background-color: #ff0000;
+}
+
+.header-active {
+  background-color: rgba(38, 38, 38, 0.985);
+}
+
+.tile {
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.tile-clicked {
+  background-color: #000000;
+}
