@@ -2,11 +2,11 @@ export function checkMine(r, c, gameState) {
   if (r < 0 || r >= gameState.size || c < 0 || c >= gameState.size) {
     return;
   }
-  if (gameState.board[r][c].classList.contains("tile-clicked")) {
+  if (gameState.board[r][c].classList.contains('tile-clicked')) {
     return;
   }
 
-  gameState.board[r][c].classList.add("tile-clicked");
+  gameState.board[r][c].classList.add('tile-clicked');
 
   let minesFound = 0;
 
@@ -26,7 +26,7 @@ export function checkMine(r, c, gameState) {
 
   if (minesFound > 0) {
     gameState.board[r][c].innerText = minesFound;
-    gameState.board[r][c].classList.add("x" + minesFound.toString());
+    gameState.board[r][c].classList.add('x' + minesFound.toString());
   } else {
     //top 3
     checkMine(r - 1, c - 1, gameState); //top left
@@ -48,7 +48,7 @@ function checkTile(r, c, gameState) {
   if (r < 0 || r >= gameState.size || c < 0 || c >= gameState.size) {
     return 0;
   }
-  if (gameState.minesLocation.includes(r.toString() + "-" + c.toString())) {
+  if (gameState.minesLocation.includes(r.toString() + '-' + c.toString())) {
     return 1;
   }
   return 0;
