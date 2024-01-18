@@ -1,7 +1,7 @@
-import settings from './js/settings';
-import { resetTimer } from 'js/timer';
-import { createTiles } from 'js/tiles';
-import { toggleVolume } from 'js/sound';
+import { settings } from './js/settings';
+import { resetTimer } from './js/timer';
+import { createTiles } from './js/tiles';
+import { toggleVolume } from './js/sound';
 
 let gameState = {
   board: [],

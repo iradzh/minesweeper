@@ -8,14 +8,14 @@ export function playSound(source) {
 }
 
 export function toggleVolume() {
-  if (!volumeButton.classList.contains("clicked")) {
+  if (!volumeButton.classList.contains('clicked')) {
     isMuted = true;
-    volumeButton.innerText = "unmute 🔈";
+    volumeButton.innerText = 'unmute 🔈';
 
-    volumeButton.classList.add("clicked");
+    volumeButton.classList.add('clicked');
   } else {
     isMuted = false;
-    volumeButton.innerText = "mute 🔈";
-    volumeButton.classList.remove("clicked");
+    volumeButton.innerText = 'mute 🔈';
+    volumeButton.classList.remove('clicked');
   }
 }
